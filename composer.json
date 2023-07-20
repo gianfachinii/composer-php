@@ -1,0 +1,24 @@
+{
+    "name": "gianfachinii/buscador-cursos",
+    "description": "Projeto que busca os cursos no site do Senac",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Gianfachinii\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gian Paulo Fachini",
+            "email": "gpzinfachini@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
