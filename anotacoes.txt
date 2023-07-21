@@ -1,0 +1,19 @@
+*packagist: repositório central de pacotes do COMPOSER, porém é possivel configurar repositório de outras fontes (Ex.:gitHub)
+
+*pacotes guzzlehttp/guzzle executa as requisições HTTP de alto nível
+
+*instalação de dependência(pacote): composer require <nome_do_pacote>
+Ex.:
+-composer require guzzle/guzzle
+-composer require symfony/css-selector
+-composer require symfony/dom-crawler
+
+*pasta vendor:local onde o composer guarda as dependências transitivas do projeto
+
+*composer.json: local onde o comando require adiciona as dependências
+
+*composer install: comando que baixa automaticamente todas as dependencias do composer.lock(ou do composer.json, caso o .lock não exista)
+
+composer.lock:define todas as versões exatas instaladas
+
+***O composer já gera um arquivo autoload.php para facilitar o carregamentodas dependências.
