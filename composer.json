@@ -3,6 +3,8 @@
     "description": "Projeto que busca os cursos no site do Senac",
     "type": "library",
     "autoload": {
+        "files": ["functions.php"
+        ],
         "psr-4": {
             "Gianfachinii\\BuscadorCursos\\": "src/"
         }
@@ -20,5 +22,6 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^10.2"
-    }
+    },
+    "License": "GPL-3.0"
 }
